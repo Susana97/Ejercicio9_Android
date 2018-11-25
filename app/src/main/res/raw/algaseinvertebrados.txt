@@ -1,0 +1,22 @@
+anemona,Anemona común,Anemonia sulcata,10,Fondo de roca
+bigaro,Bígaro,Littorina litorea,2,Fondo de roca
+cangrejocorredor,Cangrejo corredor,Pachygrapsus marmoratus,10,Fondo de roca
+cangrejo,Cangrejo ermitaño,Dardanus arrosor,6,Fondo de roca
+caracola,Caracola,Phorcus lineatus,6,Fondo de roca
+coralnaranja,Coral naranja,Astroides calycularis,50,Fondo de roca
+cystoseira,Cystoseira,Cystoseira mediterranea,20,Fondo de roca
+erizoblanco,Erizo blanco,Tripneustes ventricosus,12,Fondo de roca
+erizocomun,Erizo común,Paracentrotus lividus,8,Fondo de roca
+erizovioleta,Erizo violeta,Sphaerachinus granularis,12,Fondo de roca
+esponja,Esponja,Ircinia fasciculata,20,Fondo de roca
+estrellaroja,Estrella roja,Echinaster sepositus,30,Fondo de roca
+holoturia,Holoturia,Holoturia tubulosa,20,Fondo arenoso
+lapa,Lapa,Patella vulgata,3,Fondo de roca
+lijo,Posidonia,Posidonia oceanica,50,Praderas de fanerogamas
+medusa,Medusa,Pelagia noctiluca,10,Pelagicos o de mar abierto
+medusahuevo,Medusa huevo o aguacuajada,Cotylorihyza tuberculata,20,Pelagicos o de mar abierto
+nacra,Nacra,Pinna nobilis,60,Praderas de fanerogamas
+ofiura,Ofiura,Ophioderma longicaudum,12,Fondo de roca,
+padina,Padina,Padina pavonia,6,Fondo de roca
+pulpo,Pulp,Octopus vulgaris,60,Fondo de roca
+tomatedemar,Tomate de mar,Actinia equina,5,Fondo de roca

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.example.susanasantosmoreno.ejercicio9_android.MainActivity"
-    android:id="@+id/FrgListado"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/FrgListado"
+        class="com.example.susanasantosmoreno.ejercicio9_android.Fragment_Listado"
+        android:layout_width="138dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30" />
+
+</LinearLayout>

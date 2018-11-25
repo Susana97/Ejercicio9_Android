@@ -11,17 +11,19 @@
         android:id="@+id/textViewNombreImagen"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="#373331"
+        android:background="#c5d86d"
         android:fontFamily="@font/andada"
+        android:includeFontPadding="true"
+        android:paddingTop="10dp"
         android:textAlignment="center"
-        android:textColor="#e8eaa1"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <com.example.susanasantosmoreno.ejercicio9_android.TouchImageView
         android:id="@+id/ImagenPrincipal"
-        android:layout_width="410dp"
-        android:layout_height="560dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:src="@tools:sample/backgrounds/scenic" />
 
 

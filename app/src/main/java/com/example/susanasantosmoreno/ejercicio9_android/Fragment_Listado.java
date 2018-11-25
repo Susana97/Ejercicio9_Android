@@ -61,6 +61,9 @@ public class Fragment_Listado extends Fragment {
         textViewTitle = (TextView)getActivity().findViewById(R.id.textViewTitulo);
         listaOpciones = (ListView)getActivity().findViewById(R.id.ListViewPrincipal);
 
+        if (informacionPeces.size() > 0) {
+            listener.onDetalleListener(informacionPeces.get(0), true);
+        }
 
         //Acciones del Spiner.
         opcionesPeces.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -75,7 +78,7 @@ public class Fragment_Listado extends Fragment {
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                             //cuando se hace click se abre la segunda ventana.
 
-                            listener.onDetalleListener(informacionPeces.get(position));
+                            listener.onDetalleListener(informacionPeces.get(position), false);
                         }
                     });
                     adaptador.notifyDataSetChanged();
@@ -87,7 +90,7 @@ public class Fragment_Listado extends Fragment {
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                             //cuando se hace click se abre la segunda ventana.
 
-                            listener.onDetalleListener(informacionAlgas.get(position));
+                            listener.onDetalleListener(informacionAlgas.get(position), false);
                         }
                     });
                     adaptador.notifyDataSetChanged();
@@ -136,7 +139,7 @@ public class Fragment_Listado extends Fragment {
     }
 
     public interface DetalleListener{
-        void onDetalleListener(InformacionAnimales infoAnim);
+        void onDetalleListener(InformacionAnimales infoAnim, boolean primeraVez);
     }
 
     public void setDetallesListener(DetalleListener listener){

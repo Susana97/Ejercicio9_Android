@@ -9,13 +9,14 @@
         android:id="@+id/FrgListado"
         class="com.example.susanasantosmoreno.ejercicio9_android.Fragment_Listado"
         android:layout_width="match_parent"
-        android:layout_height="157dp"
-        android:layout_weight="40" />
+        android:layout_height="100dp"
+        android:layout_weight="0.4" />
 
-    <fragment class="com.example.susanasantosmoreno.ejercicio9_android.Fragment_Detalle"
+    <fragment
         android:id="@+id/FrgDetalle"
-        android:layout_weight="60"
+        class="com.example.susanasantosmoreno.ejercicio9_android.Fragment_Detalle"
         android:layout_width="match_parent"
-        android:layout_height="0px" />
+        android:layout_height="8dp"
+        android:layout_weight="0.6" />
 
 </LinearLayout>
